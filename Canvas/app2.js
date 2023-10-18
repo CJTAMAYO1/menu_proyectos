@@ -34,10 +34,7 @@ const ctx = lienzo.getContext('2d');
       ctx.closePath();
 
 
-      ctx.beginPath();
-      ctx.arc(200, 230, 40, Math.PI, 0, true);
-      ctx.stroke();
-      ctx.closePath();
+
 
       ctx.fillStyle = 'green';
       ctx.beginPath();
@@ -49,8 +46,8 @@ const ctx = lienzo.getContext('2d');
 
       ctx.fillStyle = 'black';
       ctx.beginPath()
-      ctx.fillRect(70,300, 260, 200);//cuerpo
+      ctx.fillRect(70,300, 260, 200);
 
       ctx.fillStyle = 'orange';
-      ctx.fillRect(10,310, 60, 200);//brazo der
-      ctx.fillRect(330,310, 60, 200);//brazo iz
+      ctx.fillRect(10,310, 60, 200);
+      ctx.fillRect(330,310, 60, 200);
