@@ -51,3 +51,8 @@ const ctx = lienzo.getContext('2d');
       ctx.fillStyle = 'orange';
       ctx.fillRect(10,310, 60, 200);
       ctx.fillRect(330,310, 60, 200);
+
+      ctx.beginPath();
+      ctx.arc(200, 230, 40, Math.PI, 0, true);
+      ctx.stroke();
+      ctx.closePath();
