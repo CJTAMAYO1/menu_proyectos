@@ -1,52 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rick And Morty API</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        .characters {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-        .modal-body img {
-            width: 100%;
-        }
-    </style>
+    <title>Menú Divertido</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
-<body class="bg-dark">
-    <div class="container mt-3 text-white" >
-        <h1>API de Rick and Morty</h1>
-        <hr>
-        <nav aria-label="Page navigation example">
-            <ul class="pagination">
-              
-            </ul>
-          </nav>
-        <hr>
-        <div class="characters"></div>
-    </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-theme="dark">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content text-white text-center">
-            <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            <img src="" alt="">
-            </div>
-            <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Mis proyectos</h1>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-6">
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="./imagenes/Captura de pantalla 2023-10-25 123337.png" class="card-img-top" alt="Opción 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Snake</h5>
+                            <p class="card-text">Juego  de la vivorita</p>
+                            <a href="./animaciones/index.html" class="btn btn-primary">Clic</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./imagenes/vampiro.png" class="card-img-top" alt="Opción 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Vampirito</h5>
+                            <p class="card-text">Juega como un vampito</p>
+                            <a href="./animaciones/index 2.html" class="btn btn-primary">Clic</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck mt-4">
+                    <div class="card">
+                        <img src="./imagenes/dibujo.png" class="card-img-top" alt="Opción 3">
+                        <div class="card-body">
+                            <h5 class="card-title">¡Mira mi dibujo!</h5>
+                            <p class="card-text">una calabaza</p>
+                            <a href="./Canvas/index.html" class="btn btn-primary">Clic</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./imagenes/clima.png" class="card-img-top" alt="Opción 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Consulta el clima</h5>
+                            <p class="card-text">Consulta el clima en tu ciudad
+                            </p>
+                            <a href="./apiClima/index.html" class="btn btn-primary">Clic</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./app.js" type="module"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

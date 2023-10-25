@@ -89,7 +89,7 @@ setInterval(()=>{
     if(posx<0)posx=32;
     if(posy>20)posy=0;
     if(posy<0)posy=20;
-},1)
+},200)
 
 snake.forEach(item=>item.pinta());
 
